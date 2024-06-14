@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PRICING SYSTEM</title>
+	<style type="text/css">
+
+		.tom{
+			display: flex;
+			justify-content: center;
+			//justify-content: space-between;
+			align-items: center;
+			gap: 5rem;
+		}
+		.timtom{
+			background-color: indigo;
+			border-radius: 10px;
+		}
+		.plan-title{
+			flex: 1 1 10px;
+			max-width: 300px;
+			padding: 10px;
+			margin: 10px;
+            background-color:red;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 30px;
+		}
+		.plan-price{
+			font-size: 40px;
+			font-weight: bold;
+			margin-bottom: 10opx;
+		}
+		.plan-features{
+			list-style: none;
+			padding: 0px;
+			margin: 0px;
+		}
+		.plan-features li {
+		 margin-bottom: 20px;
+		 text-align: center;
+		}
+		
+		.one{
+			background-color: skyblue;
+			padding: 10px;
+			border-radius: 10px;
+			border: none;
+			color: hotpink;
+		}
+		@media (max-width:600px) {
+			.tom{
+				flex-direction: column;
+				height: 100%
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="tom">
+		<div class="timtom">
+			<div class="plan-title">Basic</div>
+			<b><div class="plan-price">$11.99/month</div></b>
+			<ul class="plan-features">
+				<li>✅ 10GB Storage</li>
+                <li>✅ 1 User</li>
+                <li>🚫 Support</li>  
+			</ul>
+			<center><input class="one" type="submit" name=""></center>
+		</div>
+		<div class="timtom">
+			<div class="plan-title">Standard</div>
+			<div class="plan-price">$11.99/month</div>
+			<ul class="plan-features">
+				<li>✅ 50GB Storage</li>
+                <li>✅ 1 User</li>
+                <li>🚫 Support</li> 
+			</ul>
+			<center><input class="one" type="submit" name=""></center>
+		</div>
+		<div class="timtom">
+			<div class="plan-title">Premium</div>
+			<div class="plan-price">$11.99/month</div>
+			<ul class="plan-features">
+				<li>✅ 100GB Storage</li>
+                <li>✅ 1 User</li>
+                <li>🚫 Support</li>
+                
+			</ul>
+			<center><input class="one" type="submit" name=""></center>
+		</div>
+	</div>
+	
+
+</body>
+</html>
